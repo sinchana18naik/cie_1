@@ -8,3 +8,11 @@ if(a>b):
         print(f"the largest no is:{b}")
 else:
     print(f"the largest no is:{c}")
+ 
+if(a<b):
+    if(a<c):
+        print(f"the smallest no is:{a}")
+    elif(b<c):
+        print(f"the smallest no is:{b}")
+else:
+    print(f"the smallest no is:{c}")
